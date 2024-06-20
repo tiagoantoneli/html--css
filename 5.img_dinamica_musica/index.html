@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica e Som</h1>
+    <p>Abra em outros dispositivos ou diminua o navegador</p>
+        <picture>
+            <source media="(max-width:750px )" srcset="imagens/img-p.png" type="image/png">
+            <source media="(max-width:1050px )" srcset="imagens/img-m.png" type="image/png">
+            <img src="imagens/img-g.png" alt="Iamgem Flexível">
+    </picture>
+    <p><audio preload="metadata" controls autoplay>
+        <source src="midias/bossasonsa-quincasmoreira.mp3" type="audio/mpeg">
+    </audio></p>
+</body>
+</html>
